@@ -1,14 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	margin:0px;
+}
+
 #contenedor_principal{
 	margin: 0 auto 0 auto;
-	width: 70%;
+	width: 100%;
 	height: auto;
 	background-color:#DBE9FF;
 }
 
 #cabecera{
+	margin-top:3px;
 	text-align:center;
-	background-color:#E7E7E7;
+	background-color:#FFF;
+	position:relative;height:45px;
+	border-bottom:1px solid #CCC;
+}
+
+#logo_app{
+	width:20%;
+	height:40px;
+	float:left;
+}
+#titulo_app{
+	text-align:center;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:12px;float:left;
+	margin-left:1%;
+	width:60%;
+}
+#cuerpo{
+	background-image:url(../imagenes/backgroundmt_app.png);
+	height:650px;
+	display:block;
+	width:100%;
+	float:left;
 }
