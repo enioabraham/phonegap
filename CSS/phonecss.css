@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contenedor_principal{
+	margin: 0 auto 0 auto;
+	width: 70%;
+	height: auto;
+	background-color:#DBE9FF;
+}
+
+#cabecera{
+	text-align:center;
+	background-color:#E7E7E7;
+}
